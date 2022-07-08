@@ -2,7 +2,7 @@ import React from "react";
 
 import { Form, Button, InputGroup } from "react-bootstrap";
 
-import unsplash from "./src/Api";
+import unsplash from "./src/Api.js";
 
 function SearchBar(props) {
 	const [query, setQuery] = React.useState("");
