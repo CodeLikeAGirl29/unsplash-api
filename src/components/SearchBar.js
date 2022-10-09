@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import { Form, Button, InputGroup } from "react-bootstrap";
+import { Form, Button, InputGroup } from 'react-bootstrap';
 
-import unsplash from "./src/Api.js";
+import unsplash from '../Api.js';
 
 function SearchBar(props) {
-	const [query, setQuery] = React.useState("");
+	const [query, setQuery] = React.useState('');
 
 	const searchPhotos = async (e) => {
 		e.preventDefault();
-		console.log("Submitting the form");
+		console.log('Submitting the form');
 
 		unsplash.search
 			.getPhotos({
