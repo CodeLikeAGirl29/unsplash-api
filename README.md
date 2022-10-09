@@ -4,6 +4,8 @@
 
 ![Unsplash](https://camo.githubusercontent.com/30704e88e10944b82ee1fbd3a8d0c42cf079467310928ed8c50cf96c5aa6f434/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d556e73706c61736826636f6c6f723d303030303030266c6f676f3d556e73706c617368266c6f676f436f6c6f723d464646464646266c6162656c3d)
 
+![](https://res.cloudinary.com/codelikeagirl29/image/upload/v1665288069/projects/Photo-App_eeowvm.png)
+
 ---
 
 # Getting Started
@@ -13,8 +15,6 @@
 ## Using Unsplash's API
 
 For the docs about the Unsplash API, [click here](https://unsplash.com/documentation)
-
-<img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1654814130/unsplashapiscreenshot_nxn2jg.png">
 
 # Getting Started with Create React App
 
