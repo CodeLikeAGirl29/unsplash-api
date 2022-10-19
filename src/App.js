@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchBar from './components/SearchBar';
 import PhotoList from './components/PhotoList';
 
-import unsplash from './Api';
+import unsplash from './config';
 
 export default function App() {
   const [pics, setPics] = React.useState([]);
