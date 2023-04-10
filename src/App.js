@@ -33,7 +33,6 @@ export default function App() {
     <div className="App">
       <h1 className="brand">Image Search</h1>
       <p className="brand-two">Using Unsplash API</p>
-      <p className="credit">Built by <a href="http://lindseyk.dev">Lindsey</a></p>
       <SearchBar onResponseReturn={handleResponse} />
       <PhotoList photoList={pics} loadMore={fetchPhotos}/>
     </div>

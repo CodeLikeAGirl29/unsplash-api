@@ -6,6 +6,8 @@
 
 ![](https://res.cloudinary.com/codelikeagirl29/image/upload/v1665323141/projects/Photo-App_ouq2vz.png)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d4aae369bdc747898cddf651a372f8ce)](https://app.codacy.com/gh/CodeLikeAGirl29/unsplash-api/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 ---
 
 # Getting Started
