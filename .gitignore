@@ -1,5 +1,5 @@
-Api.js
-
+.env
+build/
 # Logs
 logs
 *.log
