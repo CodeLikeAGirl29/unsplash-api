@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,7 +8,7 @@ import PhotoList from './components/PhotoList';
 import unsplash from './config';
 
 export default function App() {
-  const [pics, setPics] = React.useState([]);
+  const [pics, setPics] = useState([]);
 
   const fetchPhotos = page => {
     unsplash.photos
@@ -35,6 +35,6 @@ export default function App() {
       <p className="brand-two">Using Unsplash API</p>
       <SearchBar onResponseReturn={handleResponse} />
       <PhotoList photoList={pics} loadMore={fetchPhotos}/>
-    </div>
+      </div>
   );
 }

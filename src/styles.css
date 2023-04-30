@@ -3,180 +3,184 @@
 }
 
 .App {
-		 padding: 30px 12%;
-     font-family: Arial, Helvetica, sans-serif;
-     display: flex;
-     flex-direction: column;
-     border: 1px solid red;
+	padding: 30px 12%;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
 }
 
- .photo-list {
-     display: grid;
-     grid-template-columns: repeat(8, 1fr);
-     grid-template-rows: repeat(8, 5vw);
-     grid-gap: 15px;
+.photo-list {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 5vw);
+	grid-gap: 15px;
 }
 
- .brand {
-     font-family: 'Righteous', cursive;
-     font-size: 1.7em;
-     font-weight: 600;
-     margin-bottom: 10px;
-     background: linear-gradient(hsl(220deg, 80%, 80%), hsl(250deg, 80%, 80%));
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     text-align: center;
+.brand {
+	font-family: "Righteous", cursive;
+	font-size: 1.7em;
+	font-weight: 600;
+	margin-bottom: 10px;
+	background: linear-gradient(hsl(220deg, 80%, 80%), hsl(250deg, 80%, 80%));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
 }
 
- .brand h1 {
-     background-image: linear-gradient(to left, #553c9a, #b393d3);
-     color: transparent;
-     background-clip: text;
-     -webkit-background-clip: text;
-     text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1), 3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2), 5px 8px 4px rgab(179, 147, 211, 0.25);
+.brand h1 {
+	background-image: linear-gradient(to left, #553c9a, #b393d3);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+		3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2),
+		5px 8px 4px rgab(179, 147, 211, 0.25);
 }
 
- .brand-two {
-     font-size: 0.8rem;
-     text-align: center;
-     padding: 5px;
-     color: slateblue;
-     font-style: italic;
+.brand-two {
+	font-size: 0.8rem;
+	text-align: center;
+	padding: 5px;
+	color: slateblue;
+	font-style: italic;
 }
 
- .form-control {
-     width: 100%;
-     padding: 12px 24px 12px;
-     background-color: transparent;
-     transition: transform 250ms ease-in-out;
-     font-size: 0.8rem;
-     line-height: 18px;
-     color: #575756;
-     border-radius: 50px;
-     border: 1px solid #666;
-     backface-visibility: hidden;
-     transform-style: preserve-3d;
+.form-control {
+	width: 100%;
+	padding: 12px 24px 12px;
+	background-color: transparent;
+	transition: transform 250ms ease-in-out;
+	font-size: 0.8rem;
+	line-height: 18px;
+	color: #575756;
+	border-radius: 50px;
+	border: 1px solid #666;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
 }
 
- .form-control:focus .form-control:hover {
-     box-shadow: none !important;
-     padding: 12px 5 12px 5;
-     cursor: crosshair;
-     outline: 10px;
-     border: 1px solid transparent;
-     border-bottom: 1px solid #575756;
-     border-radius: 0;
-     background-position: 100% center;
+.form-control:focus .form-control:hover {
+	box-shadow: none !important;
+	padding: 12px 5 12px 5;
+	cursor: crosshair;
+	outline: 10px;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #575756;
+	border-radius: 0;
+	background-position: 100% center;
 }
 
- .btn-search {
-     border: none;
-     background: #ececec !important;
-     color: dimgray !important;
+.btn-search {
+	border: none;
+	background: #ececec !important;
+	color: dimgray !important;
 }
 
- .btn-search:hover {
-     background: #ececec;
-     color: black;
+.btn-search:hover {
+	background: #ececec;
+	color: black;
 }
 
- .btn-search:focus {
-     box-shadow: none;
+.btn-search:focus {
+	box-shadow: none;
 }
 
- .btn-search:active {
-     background: #ececec;
-     color: black;
-     box-shadow: none;
+.btn-search:active {
+	background: #ececec;
+	color: black;
+	box-shadow: none;
 }
 
- .container {
-     display: flex;
-     justify-content: center;
+.container {
+	display: flex;
+	justify-content: center;
 }
 
- .card {
-     width: 20rem;
+.card {
+	width: 20rem;
 }
 
- .card .card-img {
-     transition: 0.1s;
+.card .card-img {
+	transition: 0.1s;
 }
 
- .card .img-header {
-     display: flex;
+.card .img-header {
+	display: flex;
 }
 
- .card .profile-img {
-     transition: 0.1s;
+.card .profile-img {
+	transition: 0.1s;
 }
 
- .card .card-title {
-     margin-left: 7px;
-     margin-bottom: 3px;
-     align-self: center;
-     width: fit-content;
-     color: #ececec;
-     transition: 0.1s;
+.card .card-title {
+	margin-left: 7px;
+	margin-bottom: 3px;
+	align-self: center;
+	width: fit-content;
+	color: #ececec;
+	transition: 0.1s;
 }
 
- .card .profile-img, .card-title, .btn-custom {
-     visibility: hidden;
+.card .profile-img,
+.card-title,
+.btn-custom {
+	visibility: hidden;
 }
 
- .card .btn-custom {
-     position: absolute;
-     top: 20px;
-     right: 20px;
-     border-radius: 4px;
-     padding: 0px 11px 3px 11px;
-     background: #f7f7f7;
-     color: gray;
-     transition: 0.1s;
+.card .btn-custom {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 4px;
+	padding: 0px 11px 3px 11px;
+	background: #f7f7f7;
+	color: gray;
+	transition: 0.1s;
 }
 
- .card:hover {
-     cursor: pointer;
+.card:hover {
+	cursor: pointer;
 }
 
- .card:hover .profile-img {
-     visibility: visible;
+.card:hover .profile-img {
+	visibility: visible;
 }
 
- .card:hover .card-title {
-     visibility: visible;
+.card:hover .card-title {
+	visibility: visible;
 }
 
- .card:hover .btn-custom {
-     visibility: visible;
+.card:hover .btn-custom {
+	visibility: visible;
 }
 
- .card:hover .card-img {
-     filter: brightness(75%);
+.card:hover .card-img {
+	filter: brightness(75%);
 }
 
- .card-title:hover {
-     color: white;
+.card-title:hover {
+	color: white;
 }
 
- .btn-custom:hover {
-     background: white;
-     color: black;
+.btn-custom:hover {
+	background: white;
+	color: black;
 }
 
- @media (min-width: 500px) {
-     .card-columns {
-         column-count: 1;
-    }
+@media (min-width: 500px) {
+	.card-columns {
+		column-count: 1;
+	}
 }
 
- @media (min-width: 740px) {
-     .card-columns {
-         column-count: 2;
-    }
+@media (min-width: 740px) {
+	.card-columns {
+		column-count: 2;
+	}
 }
- @media (min-width: 1100px) {
-     .card-columns {
-         column-count: 3;
-    }
+@media (min-width: 1100px) {
+	.card-columns {
+		column-count: 3;
+	}
 }

@@ -1,10 +1,10 @@
-import React from "react";
-import { Form, Button, InputGroup } from "react-bootstrap";
+import React, { useState } from "react";
+import { Button, Form, InputGroup } from "react-bootstrap";
 
 import unsplash from "../config.js";
 
 function SearchBar(props) {
-  const [query, setQuery] = React.useState("");
+  const [query, setQuery] = useState("");
 
   const searchPhotos = async (e) => {
     e.preventDefault();
@@ -23,7 +23,7 @@ function SearchBar(props) {
 
   return (
     <>
-      <Form onSubmit={searchPhotos}>
+      <Form className="form" onSubmit={searchPhotos}>
         <InputGroup>
           <InputGroup.Prepend>
             <Button className="btn-search" type="submit">
