@@ -1,6 +1,9 @@
 {
   "name": "photo-app-unsplash-api",
   "version": "1.0.0",
+      "engines": {
+        "node": ">=8.0.0"
+    }
   "description": "",
   "keywords": [],
   "main": "src/index.js",
