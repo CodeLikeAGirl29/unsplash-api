@@ -2,8 +2,6 @@
 
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-![Unsplash](https://camo.githubusercontent.com/30704e88e10944b82ee1fbd3a8d0c42cf079467310928ed8c50cf96c5aa6f434/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d556e73706c61736826636f6c6f723d303030303030266c6f676f3d556e73706c617368266c6f676f436f6c6f723d464646464646266c6162656c3d)
-
 ![](https://res.cloudinary.com/codelikeagirl29/image/upload/v1665323141/projects/Photo-App_ouq2vz.png)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d4aae369bdc747898cddf651a372f8ce)](https://app.codacy.com/gh/CodeLikeAGirl29/unsplash-api/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
