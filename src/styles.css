@@ -48,7 +48,7 @@
 
 .form-control {
 	width: 100%;
-	padding: 12px 24px 12px;
+	padding: 12px 24px;
 	background-color: transparent;
 	transition: transform 250ms ease-in-out;
 	font-size: 0.8rem;
@@ -62,7 +62,7 @@
 
 .form-control:focus .form-control:hover {
 	box-shadow: none !important;
-	padding: 12px 5 12px 5;
+	padding: 12px 5;
 	cursor: crosshair;
 	outline: 10px;
 	border: 1px solid transparent;
@@ -133,7 +133,7 @@
 	top: 20px;
 	right: 20px;
 	border-radius: 4px;
-	padding: 0px 11px 3px 11px;
+	padding: 0px 11px 3px;
 	background: #f7f7f7;
 	color: gray;
 	transition: 0.1s;
